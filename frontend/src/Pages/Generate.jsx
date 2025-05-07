@@ -24,7 +24,7 @@ function Generate() {
     const config = {
       method: 'post',
       maxBodyLength: Infinity,
-      url: `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/generateImage`,
+      url: `https://image-gen-jgur.onrender.com/api/generateImage`,
       headers: { 'Content-Type': 'application/json' },
       data: data,
       responseType: 'blob', 
