@@ -39,7 +39,7 @@ ImgGen is a full-stack MERN application that allows users to generate AI-powered
 ### 🖥️ Frontend
 - **React + Vite** – Fast, modern frontend.
 - **Axios** – For API requests.
-- **Tailwind CSS** *(optional)* – For styling (if used).
+- **Tailwind CSS** – For styling.
 
 ---
 
@@ -49,24 +49,6 @@ ImgGen is a full-stack MERN application that allows users to generate AI-powered
 - `GET /getAllPosts` – Retrieves all uploaded/generated images.
 - `POST /createPost` – Uploads a generated image with author info to Cloudinary and stores it in MongoDB.
 
----
-
-## 📁 Project Structure
-
-
-
-ImgGen/
-├── client/           # React frontend
-│   ├── components/
-│   ├── pages/
-│   └── ...
-├── server/           # Node backend
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   └── ...
-
-````
 
 ---
 
@@ -74,22 +56,22 @@ ImgGen/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/imggen.git
+git clone https://github.com/tusharsuthar1256/Image-Generator.git
 cd imggen
 ````
 
 ### 2. Setup the backend
 
 ```bash
-cd server
+cd backend
 npm install
-npm run dev
+npm start
 ```
 
 ### 3. Setup the frontend
 
 ```bash
-cd ../client
+cd ../frontend
 npm install
 npm run dev
 ```
@@ -118,7 +100,7 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 ## 🧑‍💻 Author
 
-**Your Name** – [GitHub](https://github.com/yourusername)
+**Tushar Suthar** – [GitHub](https://github.com/tusharsuthar1256)
 
 ```
 
