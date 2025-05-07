@@ -15,7 +15,7 @@ function Discover() {
    let config = {
      method: 'get',
      maxBodyLength: Infinity,
-     url: `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/post/`,
+     url: `https://image-gen-jgur.onrender.com/api/post/`,
      headers: { }
    };
 
