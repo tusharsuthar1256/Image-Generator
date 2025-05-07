@@ -22,7 +22,6 @@ function Discover() {
 
    axios.request(config)
    .then((response) => {
-     console.log(response.data.data);
      setGetAllPostsdata(response.data.data || [])
 
    })
