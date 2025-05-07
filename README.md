@@ -5,7 +5,7 @@
 ImgGen is a full-stack MERN application that allows users to generate AI-powered images from text prompts and upload them to a public showcase. It includes a responsive frontend built with React-Vite and a robust backend powered by Express and MongoDB. Users can preview and download generated images, as well as share their creations with others.
 
 ## 🌐 Live Demo
-> _Add link here if hosted (e.g., Netlify/Render/Vercel)_
+>https://image-generator-4i74.vercel.app/
 
 ---
 
