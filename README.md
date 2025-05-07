@@ -1,5 +1,4 @@
 
-```markdown
 # ImgGen 🖼️✨  
 **Text-to-Image Generator & Showcase Platform**
 
@@ -54,7 +53,7 @@ ImgGen is a full-stack MERN application that allows users to generate AI-powered
 
 ## 📁 Project Structure
 
-```
+
 
 ImgGen/
 ├── client/           # React frontend
