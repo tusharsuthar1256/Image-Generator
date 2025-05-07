@@ -15,6 +15,10 @@ ImgGen is a full-stack MERN application that allows users to generate AI-powered
 - Hero section introducing the platform.
 - Showcase section displaying all uploaded/generated images.
 - Users can see other users' creations and get inspired.
+- 
+![Screenshot_7-5-2025_123722_localhost](https://github.com/user-attachments/assets/3164e12d-e286-47ba-85e0-90e25147d3c8)
+
+
 
 ### 🟣 Generate Page
 - Split view (Left: Inputs | Right: Output):
