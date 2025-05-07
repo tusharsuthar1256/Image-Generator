@@ -149,22 +149,24 @@ function Generate() {
             <p>Loading...</p>
           </div>
         ) : outputImg ? (
+      <>
           <img 
             src={outputImg}
             className="w-full h-full object-contain rounded-lg cursor-pointer"
             alt="Generated Image" 
             onClick={() => setIsModalOpen(true)}
           />
-        ) : (
-          <p className="text-center">No image generated yet.</p>
-        )}
-
         <button 
           onClick={downloadImage}
           className="cursor-pointer absolute bottom-4 right-4 bg-[#5254B7] text-white p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         >
           <TfiDownload />
         </button>
+          </>
+        ) : (
+          <p className="text-center">No image generated yet.</p>
+        )}
+
       </div>
 
       {isModalOpen && (
